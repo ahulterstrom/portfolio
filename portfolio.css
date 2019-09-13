@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #211f41
+}
+
+h1 {
+    font-family: 'Cormorant', serif;
+    font-size: 5vw;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 4vw;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 200;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #211f41;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+nav .active {
+    background-color: rgb(72, 92, 110);
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    flex: 1
+}
+
+article {
+    flex: 4
+}
